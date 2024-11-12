@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liver predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
+
+
+
+
+</head>
+  <body>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     
+
+    <header class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar" style="background-color: rgb(233, 50, 50);">
+      <div class="container-fluid">
+        <a class="navbar-brand paytone-one-regular" href="#" style="font-size: 25px;color: aliceblue;">
+            <img src="{{ url_for('static', filename='icon.png') }}" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+             Liver Disease Predictor
+        </a>
+          
+          
+          
+
+
+        <div class="navbar-nav d-flex flex-row">
+          <a class="nav-link active ms-4 paytone-one-regular" aria-current="page" href="{{ url_for('index') }}" style="color:rgb(245, 242, 241);font-size: 30px;">HOME</a>
+          <a class="nav-link ms-4 paytone-one-regular" href="{{ url_for('about') }}" style="color:rgb(250, 248, 247);font-size: 30px;">ABOUT</a>
+          
+        </div>
+      </div>
+    </nav>
+    
+          </div>
+        </div>
+      </header>
+
+      <div class="card text-center container-fluid" style="border-color: aliceblue;border: 0cap;margin-left: -300px;">
+        <div class="card-body">
+          <h1 class="card-title" style="color:rgb(233, 50, 50) ; font-weight: 300;font-family: Noto Serif;">About this project...</h1>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 540px;margin-left: 400px;border-style: dotted;border-color: brown;">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title" style="color: rgb(196, 32, 32);font-family: Noto Serif;">Project Description: Liver Disease Predictor</h3>
+              <p class="card-text" style="color: rgb(139, 42, 42);font-family: Noto Serif;">
+                The Liver Disease Predictor is a machine learning project designed to assist in the prediction of 
+                liver disease based on patient data. This project leverages the power of various Python libraries 
+                and the Flask web framework to provide a user-friendly web application.
+                <br>
+                <h5 style="color: rgb(139, 42, 42);font-family: Noto Serif;">Technologies Used</h5>
+                <p><ul style="color: rgb(139, 42, 42);font-family: Noto Serif;">
+                  <li><b>Languages:</b> HTML, CSS, Python</li>
+                  <li><b>Framework:</b>Flask</li>
+                  <li><b>Python Libraries:</b>Pandas, NumPy, Scikit-Learn,etc...</li>
+                </ul></p>
+                
+                <h5 style="color: rgb(139, 42, 42);font-family: Noto Serif;">Project Details:</h5>
+                <p><ul style="color: rgb(139, 42, 42);font-family: Noto Serif;">
+                  <li><b>Dataset:</b>The dataset used for training the model is sourced from Kaggle, containing various features related to liver health.</li>
+                  <li><b>Machine Learning:</b>The project utilizes advanced machine learning algorithms to analyze the dataset and predict the likelihood of liver disease in patients.</li>
+                  <li><b>Web Application:</b>A web interface built with HTML and CSS allows users to input patient data and receive predictions on liver disease risk.</li>
+
+                </ul></p>
+                <p style="color: rgb(139, 42, 42);font-family: Noto Serif;">By integrating these technologies, the Liver Disease Predictor aims to provide a 
+                  valuable tool for healthcare professionals and researchers in identifying and managing
+                   liver disease more effectively.
+
+                </p>
+
+               </p>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="{{ url_for('static', filename='about.png') }}" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </body>
+    </html>

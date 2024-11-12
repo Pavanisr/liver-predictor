@@ -1,0 +1,65 @@
+
+    .color-for-h1{
+      color: rgb(235, 231, 229);
+      font-size: 50px;
+      font-weight: 700;
+    }
+    .color-for-h1-2{
+      color: rgb(214, 84, 8);
+      font-size: 50px;
+      font-weight: 200px;
+    }
+    .class-for-p{
+      text-align: center;
+      
+    }
+    
+    .h3-1{
+      color: rgb(35, 106, 172);
+      
+    }
+    .hr-1{
+      border-width: 5px;
+      
+    }
+    .btn-custom{
+      width:50%;
+      background-color: rgb(42, 111, 240);
+      border: none;
+      border-radius: 5px;
+    }
+    .p-for-2{
+      color: antiquewhite;
+      font-size: 17px;
+    }
+    footer{
+      height: 75px;
+    }
+   
+    .paytone-one-regular {
+      font-family: "Paytone One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    /* <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+
+     .noto-serif {
+         font-family: "Noto Serif", serif;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+         font-variation-settings:
+         "wdth" 100;
+    }*/
+
+    .red-text {
+      color: rgb(241, 10, 10);
+      font-size: 24px;
+  }
+  
+  .red-text-small {
+      color: rgb(241, 10, 10);
+  }
+  
